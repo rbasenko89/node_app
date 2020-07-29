@@ -1,13 +1,21 @@
 {
-  "name": "docker_web_app",
+  "name": "hw-03",
   "version": "1.0.0",
-  "description": "node.js app on docker",
-  "author": "Ramella Basenko ramellabasenko@gmail.com",
-  "main": "server.js",
+  "description": "docker-compose up -d",
+  "main": "myapp.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "jest",
+    "start": "node myapp.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "http-status-codes": "^1.4.0",
+    "jest": "^26.0.1",
+    "node-vault": "^0.9.18",
+    "pg-promise": "^10.5.8",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {}
 }
